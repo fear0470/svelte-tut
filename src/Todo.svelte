@@ -50,9 +50,10 @@ body {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 10px;
+  background-color: azure;
   color: #333;
   height: 90vh;
-  margin-top: 5vh;
   margin-bottom: 5vh;
   overflow-y: auto;
 }
@@ -142,6 +143,7 @@ input[type="text"] {
   padding: 10px;
   border-radius: 4px;
   border: 3px solid #333;
+  background-color: antiquewhite;
 }
 
 .empty-state {
@@ -172,7 +174,7 @@ input[type="text"] {
 
 <main>
   <div class="container">
-    <h1 class="app-title">todos</h1>
+
     <ul class="todo-list">
       {#each todoItems as todo (todo.id)}
         <li class="todo-item {todo.checked ? 'done' : ''}">
