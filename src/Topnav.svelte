@@ -10,6 +10,9 @@
         color: antiquewhite;
         font-size: 20px;
         font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+         Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+         text-align: center;
     }
 </style>
 
