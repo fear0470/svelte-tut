@@ -1,10 +1,12 @@
 <script>
 	import Quiz from "./Quiz.svelte";
+	import Topnav from "./Topnav.svelte";
+	import Todo from "./Todo.svelte";
 
 </script>
 
 <style>
 </style>
 
-<h1>Hello World</h1>
-<Quiz />
+<Topnav />
+<Todo />
